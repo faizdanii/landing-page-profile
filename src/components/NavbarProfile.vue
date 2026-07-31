@@ -27,15 +27,30 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
       <div class="navbar__brand" @click="scrollToSection('hero')">
         <div class="navbar__avatar">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="20" fill="url(#avatarGrad)"/>
-            <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
-              font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="white">
+            <circle cx="20" cy="20" r="20" fill="url(#avatarGrad)" />
+            <text
+              x="50%"
+              y="55%"
+              dominant-baseline="middle"
+              text-anchor="middle"
+              font-family="Outfit, sans-serif"
+              font-size="14"
+              font-weight="700"
+              fill="white"
+            >
               FSD
             </text>
             <defs>
-              <linearGradient id="avatarGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#3b82f6"/>
-                <stop offset="1" stop-color="#06b6d4"/>
+              <linearGradient
+                id="avatarGrad"
+                x1="0"
+                y1="0"
+                x2="40"
+                y2="40"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3b82f6" />
+                <stop offset="1" stop-color="#06b6d4" />
               </linearGradient>
             </defs>
           </svg>
@@ -57,9 +72,18 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         <li><button class="nav-link" @click="scrollToSection('education')">Education</button></li>
         <li>
           <button class="nav-cta" @click="scrollToSection('contact')">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,13 2,6"/>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
             </svg>
             Contact
           </button>
@@ -69,7 +93,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
       <!-- Hamburger -->
       <button
         class="navbar__hamburger"
-        :class="{ 'open': isMobileOpen }"
+        :class="{ open: isMobileOpen }"
         @click="isMobileOpen = !isMobileOpen"
         aria-label="Toggle menu"
       >
@@ -85,7 +109,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
       <button class="mobile-link" @click="scrollToSection('experience')">Experience</button>
       <button class="mobile-link" @click="scrollToSection('skills')">Skills</button>
       <button class="mobile-link" @click="scrollToSection('education')">Education</button>
-      <button class="mobile-link mobile-link--cta" @click="scrollToSection('contact')">Contact Me</button>
+      <button class="mobile-link mobile-link--cta" @click="scrollToSection('contact')">
+        Contact Me
+      </button>
     </div>
   </nav>
 </template>
@@ -97,6 +123,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
   z-index: 1000;
   transition: all 0.35s ease;
   padding: 0.6rem 0;
@@ -141,7 +170,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .navbar__brand:hover .navbar__avatar {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.7), 0 0 20px rgba(59, 130, 246, 0.3);
+  box-shadow:
+    0 0 0 3px rgba(59, 130, 246, 0.7),
+    0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .navbar__identity {
