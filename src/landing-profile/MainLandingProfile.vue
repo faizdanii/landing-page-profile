@@ -355,7 +355,7 @@ function scrollTo(id: string) {
                 </svg>
                 faizsukmadanii@gmail.com
               </a>
-              <a href="https://linkedin.com" target="_blank" class="chip">
+              <a href="https://www.linkedin.com/in/faizdanii/" target="_blank" class="chip">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
                   <path
                     d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
@@ -551,7 +551,7 @@ function scrollTo(id: string) {
               </svg>
               081222551436
             </a>
-            <a href="https://linkedin.com" target="_blank" class="cl">
+            <a href="https://www.linkedin.com/in/faizdanii/" target="_blank" class="cl">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
