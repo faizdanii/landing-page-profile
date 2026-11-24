@@ -26,34 +26,11 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
       <!-- Brand / Identity -->
       <div class="navbar__brand" @click="scrollToSection('hero')">
         <div class="navbar__avatar">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="20" fill="url(#avatarGrad)" />
-            <text
-              x="50%"
-              y="55%"
-              dominant-baseline="middle"
-              text-anchor="middle"
-              font-family="Outfit, sans-serif"
-              font-size="14"
-              font-weight="700"
-              fill="white"
-            >
-              FSD
-            </text>
-            <defs>
-              <linearGradient
-                id="avatarGrad"
-                x1="0"
-                y1="0"
-                x2="40"
-                y2="40"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stop-color="#3b82f6" />
-                <stop offset="1" stop-color="#06b6d4" />
-              </linearGradient>
-            </defs>
-          </svg>
+          <img
+            src="../assets/profile-photo.jpg"
+            alt="Faiz Sukma Danii"
+            class="navbar__avatar-img"
+          />
         </div>
         <div class="navbar__identity">
           <span class="navbar__name">Faiz Sukma Danii</span>
@@ -132,11 +109,11 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .navbar--scrolled {
-  background: rgba(4, 7, 26, 0.85);
+  background: rgba(235, 235, 216, 0.88);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(69, 82, 48, 0.14);
+  box-shadow: 0 4px 24px rgba(69, 82, 48, 0.1);
   padding: 0.4rem 0;
 }
 
@@ -165,14 +142,23 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+  background: #ebebd8;
+  box-shadow: 0 0 0 2px rgba(99, 117, 69, 0.55);
   transition: box-shadow 0.3s ease;
+}
+
+.navbar__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
 }
 
 .navbar__brand:hover .navbar__avatar {
   box-shadow:
-    0 0 0 3px rgba(59, 130, 246, 0.7),
-    0 0 20px rgba(59, 130, 246, 0.3);
+    0 0 0 3px rgba(69, 82, 48, 0.8),
+    0 0 16px rgba(99, 117, 69, 0.35);
 }
 
 .navbar__identity {
@@ -185,7 +171,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   font-family: 'Outfit', sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #455230;
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -194,13 +180,13 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   font-family: 'Inter', sans-serif;
   font-size: 0.72rem;
   font-weight: 500;
-  color: #94a3b8;
+  color: #637545;
   white-space: nowrap;
   line-height: 1;
 }
 
 .navbar__at {
-  color: #06b6d4;
+  color: #455230;
   font-weight: 600;
 }
 
@@ -215,7 +201,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 .nav-link {
   background: transparent;
   border: none;
-  color: #94a3b8;
+  color: #637545;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
@@ -227,17 +213,17 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .nav-link:hover {
-  color: #f1f5f9;
-  background: rgba(255, 255, 255, 0.06);
+  color: #455230;
+  background: rgba(155, 166, 133, 0.22);
 }
 
 .nav-cta {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  background: linear-gradient(135deg, #455230 0%, #637545 100%);
   border: none;
-  color: #fff;
+  color: #ebebd8;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   font-weight: 600;
@@ -245,13 +231,13 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   border-radius: 999px;
   cursor: pointer;
   transition: all 0.25s ease;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
+  box-shadow: 0 4px 15px rgba(69, 82, 48, 0.25);
   margin-left: 0.25rem;
 }
 
 .nav-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+  box-shadow: 0 6px 20px rgba(69, 82, 48, 0.38);
 }
 
 /* Hamburger */
@@ -268,21 +254,21 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .navbar__hamburger:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(155, 166, 133, 0.22);
 }
 
 .navbar__hamburger span {
   display: block;
   width: 22px;
   height: 2px;
-  background: #94a3b8;
+  background: #637545;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
 .navbar__hamburger.open span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
-  background: #3b82f6;
+  background: #455230;
 }
 
 .navbar__hamburger.open span:nth-child(2) {
@@ -292,7 +278,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 
 .navbar__hamburger.open span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
-  background: #3b82f6;
+  background: #455230;
 }
 
 /* Mobile Menu */
@@ -313,7 +299,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 .mobile-link {
   background: transparent;
   border: none;
-  color: #94a3b8;
+  color: #637545;
   font-family: 'Inter', sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
@@ -325,21 +311,21 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .mobile-link:hover {
-  background: rgba(59, 130, 246, 0.08);
-  color: #f1f5f9;
+  background: rgba(155, 166, 133, 0.22);
+  color: #455230;
 }
 
 .mobile-link--cta {
-  background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #455230 0%, #637545 100%);
+  color: #ebebd8;
   text-align: center;
   margin-top: 0.5rem;
   font-weight: 600;
 }
 
 .mobile-link--cta:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #0891b2 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #637545 0%, #455230 100%);
+  color: #ebebd8;
 }
 
 /* Responsive */

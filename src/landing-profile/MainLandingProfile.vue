@@ -19,7 +19,7 @@ const experiences = [
     company: 'PLN ICON PLUS',
     period: '09/2023 – Present',
     type: 'Full-time',
-    color: '#3b82f6',
+    color: '#455230',
     icon: '⚡',
     description:
       'Building enterprise-grade web applications focused on transmission infrastructure monitoring for the energy sector.',
@@ -35,7 +35,7 @@ const experiences = [
     company: 'Bullion – Pegadaian',
     period: '06/2023 – 09/2023',
     type: 'Contract',
-    color: '#f59e0b',
+    color: '#637545',
     icon: '🏅',
     description:
       "Gold trading platform within Pegadaian's Bullion ecosystem serving millions of users with investment and financing services.",
@@ -51,7 +51,7 @@ const experiences = [
     company: 'New Transaction – BP TAPERA',
     period: '12/2022 – 05/2023',
     type: 'Contract',
-    color: '#8b5cf6',
+    color: '#455230',
     icon: '🏠',
     description:
       'Financial management system for distributing Tapera Funds for housing financing among classified Tapera Participants.',
@@ -67,7 +67,7 @@ const experiences = [
     company: 'PT. Mitra Talenta Grup – Celerates',
     period: '08/2022 – 08/2023',
     type: 'Full-time',
-    color: '#06b6d4',
+    color: '#637545',
     icon: '💻',
     description:
       'IT Consulting Company. Assisted in the successful execution of the Celerates Project meeting client specifications.',
@@ -81,16 +81,16 @@ const experiences = [
 ]
 
 const skills = [
-  { name: 'Vue.js', level: 'Advanced', pct: 92, color: '#42b883' },
-  { name: 'TypeScript', level: 'Advanced', pct: 88, color: '#3178c6' },
-  { name: 'JavaScript', level: 'Advanced', pct: 90, color: '#f7df1e' },
-  { name: 'CSS / SCSS', level: 'Advanced', pct: 90, color: '#1572b6' },
-  { name: 'Vuetify', level: 'Advanced', pct: 88, color: '#1867c0' },
-  { name: 'React.js', level: 'Intermediate', pct: 70, color: '#61dafb' },
-  { name: 'Bootstrap', level: 'Intermediate', pct: 75, color: '#7952b3' },
-  { name: 'RESTful API', level: 'Advanced', pct: 87, color: '#06b6d4' },
-  { name: 'Git / GitLab', level: 'Advanced', pct: 85, color: '#fc6d26' },
-  { name: 'XML', level: 'Advanced', pct: 82, color: '#f59e0b' },
+  { name: 'Vue.js', level: 'Advanced', pct: 92, color: '#455230' },
+  { name: 'TypeScript', level: 'Advanced', pct: 88, color: '#637545' },
+  { name: 'JavaScript', level: 'Advanced', pct: 90, color: '#455230' },
+  { name: 'CSS / SCSS', level: 'Advanced', pct: 90, color: '#637545' },
+  { name: 'Vuetify', level: 'Advanced', pct: 88, color: '#455230' },
+  { name: 'React.js', level: 'Intermediate', pct: 70, color: '#9ba685' },
+  { name: 'Bootstrap', level: 'Intermediate', pct: 75, color: '#9ba685' },
+  { name: 'RESTful API', level: 'Advanced', pct: 87, color: '#637545' },
+  { name: 'Git / GitLab', level: 'Advanced', pct: 85, color: '#455230' },
+  { name: 'XML', level: 'Advanced', pct: 82, color: '#637545' },
 ]
 
 const softSkills = ['Team Work', 'Organized', 'Communication', 'Leadership', 'Public Speaking']
@@ -119,7 +119,7 @@ function scrollTo(id: string) {
                   height="14"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#06b6d4"
+                  stroke="#637545"
                   stroke-width="2.5"
                 >
                   <polyline points="16 18 22 12 16 6" />
@@ -193,88 +193,11 @@ function scrollTo(id: string) {
           <div class="hero-visual reveal">
             <div class="avatar-ring">
               <div class="avatar-wrap">
-                <svg
-                  viewBox="0 0 160 160"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="100%"
-                  height="100%"
-                >
-                  <defs>
-                    <linearGradient
-                      id="avatarBg"
-                      x1="0"
-                      y1="0"
-                      x2="160"
-                      y2="160"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#0a1035" />
-                      <stop offset="1" stop-color="#1a2060" />
-                    </linearGradient>
-                    <linearGradient
-                      id="avatarAcc"
-                      x1="0"
-                      y1="0"
-                      x2="160"
-                      y2="160"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#3b82f6" />
-                      <stop offset="1" stop-color="#06b6d4" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="80" cy="80" r="80" fill="url(#avatarBg)" />
-                  <ellipse cx="80" cy="135" rx="45" ry="30" fill="#1e3a8a" />
-                  <ellipse cx="80" cy="130" rx="42" ry="28" fill="#1d4ed8" />
-                  <path d="M65 105 L80 120 L95 105" fill="white" opacity="0.9" />
-                  <path d="M75 105 L80 115 L85 105" fill="#1e40af" />
-                  <ellipse cx="80" cy="78" rx="28" ry="30" fill="#fcd9b4" />
-                  <ellipse cx="80" cy="53" rx="28" ry="14" fill="#1a0a00" />
-                  <ellipse cx="65" cy="57" rx="10" ry="10" fill="#1a0a00" />
-                  <ellipse cx="95" cy="57" rx="10" ry="10" fill="#1a0a00" />
-                  <ellipse cx="70" cy="77" rx="4" ry="4.5" fill="white" />
-                  <ellipse cx="90" cy="77" rx="4" ry="4.5" fill="white" />
-                  <circle cx="71" cy="78" r="2.5" fill="#1a0a00" />
-                  <circle cx="91" cy="78" r="2.5" fill="#1a0a00" />
-                  <circle cx="72" cy="77" r="1" fill="white" />
-                  <circle cx="92" cy="77" r="1" fill="white" />
-                  <path
-                    d="M65 71 Q70 69 75 71"
-                    stroke="#4a2a00"
-                    stroke-width="1.5"
-                    fill="none"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M85 71 Q90 69 95 71"
-                    stroke="#4a2a00"
-                    stroke-width="1.5"
-                    fill="none"
-                    stroke-linecap="round"
-                  />
-                  <path d="M80 82 Q78 87 80 89 Q82 87 80 82" fill="#e8b48a" />
-                  <path
-                    d="M73 93 Q80 99 87 93"
-                    stroke="#c0785a"
-                    stroke-width="1.5"
-                    fill="none"
-                    stroke-linecap="round"
-                  />
-                  <ellipse cx="51" cy="79" rx="5" ry="7" fill="#fcd9b4" />
-                  <ellipse cx="109" cy="79" rx="5" ry="7" fill="#fcd9b4" />
-                  <text
-                    x="50%"
-                    y="92%"
-                    dominant-baseline="middle"
-                    text-anchor="middle"
-                    font-family="monospace"
-                    font-size="9"
-                    fill="url(#avatarAcc)"
-                    opacity="0.5"
-                  >
-                    &lt;/dev&gt;
-                  </text>
-                </svg>
+                <img
+                  src="../assets/profile-photo.jpg"
+                  alt="Faiz Sukma Danii"
+                  class="avatar-img"
+                />
               </div>
             </div>
             <div class="fcard fcard-tl">
@@ -286,9 +209,9 @@ function scrollTo(id: string) {
               <span class="fc-lbl">Companies</span>
             </div>
             <div class="fcard fcard-tr">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="#42b883">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#637545">
                 <path d="M2 12C2 12 5 5 12 5s10 7 10 7-3 7-10 7S2 12 2 12z" />
-                <circle cx="12" cy="12" r="3" fill="white" />
+                <circle cx="12" cy="12" r="3" fill="#ebebd8" />
               </svg>
               <span class="fc-lbl">Vue.js</span>
             </div>
@@ -400,7 +323,7 @@ function scrollTo(id: string) {
           <div v-for="(exp, i) in experiences" :key="i" class="tl-item reveal">
             <div
               class="tl-dot"
-              :style="{ background: `linear-gradient(135deg, ${exp.color}, #06b6d4)` }"
+              :style="{ background: `linear-gradient(135deg, ${exp.color}, #9ba685)` }"
             >
               {{ exp.icon }}
             </div>
@@ -582,7 +505,7 @@ function scrollTo(id: string) {
     <footer class="ftr">
       <div class="container">
         <p>
-          © 2024 Faiz Sukma Danii · Built with <span style="color: #42b883">Vue.js</span> &amp; ❤️
+          © 2026 Faiz Sukma Danii
         </p>
       </div>
     </footer>
@@ -594,7 +517,7 @@ function scrollTo(id: string) {
 
 .portfolio {
   padding-top: 70px;
-  background: #04071a;
+  background: #ebebd8;
   min-height: 100vh;
 }
 .container {
@@ -617,7 +540,7 @@ function scrollTo(id: string) {
   transform: translateY(0);
 }
 .grad-txt {
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  background: linear-gradient(135deg, #455230, #637545);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -628,7 +551,7 @@ function scrollTo(id: string) {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #06b6d4;
+  color: #637545;
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -636,14 +559,14 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   font-weight: 800;
-  color: #f1f5f9;
+  color: #455230;
   line-height: 1.15;
   margin-bottom: 0.9rem;
 }
 .sec-sub {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
-  color: #64748b;
+  color: #637545;
   max-width: 540px;
   line-height: 1.85;
 }
@@ -659,15 +582,15 @@ function scrollTo(id: string) {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 15% 50%, rgba(59, 130, 246, 0.09) 0%, transparent 60%),
-    radial-gradient(ellipse at 85% 20%, rgba(6, 182, 212, 0.07) 0%, transparent 55%), #04071a;
+    radial-gradient(ellipse at 15% 50%, rgba(155, 166, 133, 0.28) 0%, transparent 60%),
+    radial-gradient(ellipse at 85% 20%, rgba(99, 117, 69, 0.16) 0%, transparent 55%), #ebebd8;
 }
 .hero-bg-grid {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(59, 130, 246, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(59, 130, 246, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(69, 82, 48, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(69, 82, 48, 0.06) 1px, transparent 1px);
   background-size: 52px 52px;
   mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
 }
@@ -680,7 +603,7 @@ function scrollTo(id: string) {
 .orb1 {
   width: 520px;
   height: 520px;
-  background: rgba(59, 130, 246, 0.11);
+  background: rgba(155, 166, 133, 0.35);
   top: -120px;
   left: -100px;
   animation: floatY 9s ease-in-out infinite;
@@ -688,7 +611,7 @@ function scrollTo(id: string) {
 .orb2 {
   width: 420px;
   height: 420px;
-  background: rgba(6, 182, 212, 0.07);
+  background: rgba(99, 117, 69, 0.22);
   bottom: -80px;
   right: -80px;
   animation: floatY 11s ease-in-out infinite reverse;
@@ -716,7 +639,7 @@ function scrollTo(id: string) {
 .hero-greeting {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
-  color: #94a3b8;
+  color: #637545;
   margin-bottom: 0.6rem;
   display: flex;
   align-items: center;
@@ -749,12 +672,12 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: clamp(2.8rem, 6vw, 5rem);
   font-weight: 900;
-  color: #f1f5f9;
+  color: #455230;
   line-height: 1.05;
   margin-bottom: 1rem;
 }
 .name-blue {
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  background: linear-gradient(135deg, #637545, #9ba685);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -770,9 +693,9 @@ function scrollTo(id: string) {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: rgba(59, 130, 246, 0.1);
-  border: 1px solid rgba(59, 130, 246, 0.22);
-  color: #e2e8f0;
+  background: rgba(155, 166, 133, 0.25);
+  border: 1px solid rgba(99, 117, 69, 0.35);
+  color: #455230;
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
@@ -782,23 +705,23 @@ function scrollTo(id: string) {
 .role-at {
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
-  color: #06b6d4;
+  color: #637545;
   font-weight: 600;
 }
 .hero-desc {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
-  color: #94a3b8;
+  color: #58683e;
   line-height: 1.9;
   max-width: 520px;
   margin-bottom: 2rem;
 }
 .hero-desc strong {
-  color: #e2e8f0;
+  color: #455230;
   font-weight: 600;
 }
 .hero-desc em {
-  color: #3b82f6;
+  color: #455230;
   font-style: normal;
   font-weight: 600;
 }
@@ -812,8 +735,8 @@ function scrollTo(id: string) {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
-  color: white;
+  background: linear-gradient(135deg, #455230, #637545);
+  color: #ebebd8;
   border: none;
   padding: 0.8rem 1.75rem;
   border-radius: 999px;
@@ -822,19 +745,19 @@ function scrollTo(id: string) {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.38);
+  box-shadow: 0 4px 20px rgba(69, 82, 48, 0.28);
 }
 .btn-pri:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(59, 130, 246, 0.55);
+  box-shadow: 0 8px 28px rgba(69, 82, 48, 0.4);
 }
 .btn-out {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: transparent;
-  color: #e2e8f0;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.45);
+  color: #455230;
+  border: 1px solid rgba(69, 82, 48, 0.25);
   padding: 0.8rem 1.75rem;
   border-radius: 999px;
   font-family: 'Inter', sans-serif;
@@ -844,8 +767,8 @@ function scrollTo(id: string) {
   transition: all 0.3s ease;
 }
 .btn-out:hover {
-  border-color: rgba(59, 130, 246, 0.5);
-  background: rgba(59, 130, 246, 0.07);
+  border-color: #455230;
+  background: rgba(155, 166, 133, 0.25);
   transform: translateY(-2px);
 }
 .hero-meta {
@@ -860,10 +783,10 @@ function scrollTo(id: string) {
   gap: 0.35rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #637545;
 }
 .meta-sep {
-  color: #334155;
+  color: #9ba685;
 }
 .meta-avail {
   display: inline-flex;
@@ -871,22 +794,23 @@ function scrollTo(id: string) {
   gap: 0.4rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  color: #22c55e;
+  color: #455230;
+  font-weight: 500;
 }
 .pulse-dot {
   width: 8px;
   height: 8px;
-  background: #22c55e;
+  background: #637545;
   border-radius: 50%;
   animation: pDot 2s ease infinite;
 }
 @keyframes pDot {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+    box-shadow: 0 0 0 0 rgba(99, 117, 69, 0.45);
   }
   50% {
-    box-shadow: 0 0 0 5px rgba(34, 197, 94, 0);
+    box-shadow: 0 0 0 5px rgba(99, 117, 69, 0);
   }
 }
 
@@ -900,32 +824,39 @@ function scrollTo(id: string) {
   width: 270px;
   height: 270px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.35), rgba(6, 182, 212, 0.35));
-  padding: 3px;
+  background: linear-gradient(135deg, #455230, #9ba685);
+  padding: 4px;
   animation: floatY 5s ease-in-out infinite;
   box-shadow:
-    0 0 70px rgba(59, 130, 246, 0.18),
-    0 0 140px rgba(59, 130, 246, 0.08);
+    0 12px 45px rgba(69, 82, 48, 0.22),
+    0 0 80px rgba(155, 166, 133, 0.28);
 }
 .avatar-wrap {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   overflow: hidden;
-  background: #080d20;
+  background: #ebebd8;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
 }
 .fcard {
   position: absolute;
-  background: rgba(4, 7, 26, 0.9);
+  background: rgba(235, 235, 216, 0.92);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(69, 82, 48, 0.18);
   border-radius: 12px;
   padding: 0.6rem 0.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.15rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 24px rgba(69, 82, 48, 0.14);
 }
 .fcard-tl {
   top: 0;
@@ -947,7 +878,7 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  background: linear-gradient(135deg, #455230, #637545);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -955,7 +886,7 @@ function scrollTo(id: string) {
 .fc-lbl {
   font-family: 'Inter', sans-serif;
   font-size: 0.68rem;
-  color: #64748b;
+  color: #637545;
   white-space: nowrap;
 }
 .scroll-hint {
@@ -969,7 +900,7 @@ function scrollTo(id: string) {
   gap: 0.5rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.68rem;
-  color: #334155;
+  color: #637545;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   animation: fadeUp 1s ease 1.5s both;
@@ -987,8 +918,8 @@ function scrollTo(id: string) {
 .scroll-arr {
   width: 18px;
   height: 18px;
-  border-right: 2px solid #334155;
-  border-bottom: 2px solid #334155;
+  border-right: 2px solid #637545;
+  border-bottom: 2px solid #637545;
   transform: rotate(45deg);
   animation: bounce 2s ease infinite;
 }
@@ -1007,7 +938,7 @@ function scrollTo(id: string) {
   background: linear-gradient(
     180deg,
     transparent 0%,
-    rgba(59, 130, 246, 0.025) 50%,
+    rgba(155, 166, 133, 0.12) 50%,
     transparent 100%
   );
 }
@@ -1020,12 +951,12 @@ function scrollTo(id: string) {
 .about-p {
   font-family: 'Inter', sans-serif;
   font-size: 0.975rem;
-  color: #94a3b8;
+  color: #58683e;
   line-height: 1.9;
   margin-bottom: 1.1rem;
 }
 .about-p strong {
-  color: #e2e8f0;
+  color: #455230;
   font-weight: 600;
 }
 .chips {
@@ -1038,9 +969,9 @@ function scrollTo(id: string) {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(69, 82, 48, 0.15);
+  color: #455230;
   font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   padding: 0.4rem 0.9rem;
@@ -1049,9 +980,9 @@ function scrollTo(id: string) {
   transition: all 0.2s ease;
 }
 .chip:hover {
-  border-color: rgba(59, 130, 246, 0.4);
-  color: #3b82f6;
-  background: rgba(59, 130, 246, 0.07);
+  border-color: #637545;
+  color: #455230;
+  background: rgba(155, 166, 133, 0.28);
 }
 .stats-grid {
   display: grid;
@@ -1059,8 +990,8 @@ function scrollTo(id: string) {
   gap: 1rem;
 }
 .stat-c {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(69, 82, 48, 0.14);
   border-radius: 16px;
   padding: 1.75rem 1.5rem;
   display: flex;
@@ -1069,8 +1000,8 @@ function scrollTo(id: string) {
   transition: all 0.3s ease;
 }
 .stat-c:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(59, 130, 246, 0.22);
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(99, 117, 69, 0.35);
   transform: translateY(-3px);
 }
 .stat-n {
@@ -1082,12 +1013,12 @@ function scrollTo(id: string) {
 .stat-l {
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #637545;
 }
 
 /* EXPERIENCE */
 .exp-sec {
-  background: #040712;
+  background: #e1e2cc;
 }
 .timeline {
   position: relative;
@@ -1104,8 +1035,8 @@ function scrollTo(id: string) {
   background: linear-gradient(
     180deg,
     transparent,
-    rgba(59, 130, 246, 0.28) 20%,
-    rgba(59, 130, 246, 0.28) 80%,
+    rgba(99, 117, 69, 0.35) 20%,
+    rgba(69, 82, 48, 0.35) 80%,
     transparent
   );
 }
@@ -1126,18 +1057,18 @@ function scrollTo(id: string) {
   flex-shrink: 0;
   position: relative;
   z-index: 1;
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 4px 20px rgba(69, 82, 48, 0.22);
 }
 .tl-card {
-  background: rgba(255, 255, 255, 0.028);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(235, 235, 216, 0.85);
+  border: 1px solid rgba(69, 82, 48, 0.14);
   border-radius: 16px;
   padding: 1.75rem;
   transition: all 0.3s ease;
 }
 .tl-card:hover {
-  background: rgba(255, 255, 255, 0.045);
-  border-color: rgba(59, 130, 246, 0.18);
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(99, 117, 69, 0.32);
 }
 .tl-hd {
   display: flex;
@@ -1151,7 +1082,7 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #455230;
   margin-bottom: 0.2rem;
 }
 .tl-co {
@@ -1169,17 +1100,17 @@ function scrollTo(id: string) {
 .tl-per {
   font-family: 'Inter', sans-serif;
   font-size: 0.78rem;
-  color: #64748b;
-  background: rgba(255, 255, 255, 0.04);
+  color: #455230;
+  background: rgba(155, 166, 133, 0.25);
   padding: 0.22rem 0.65rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(69, 82, 48, 0.14);
   white-space: nowrap;
 }
 .tl-tp {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
-  color: #06b6d4;
+  color: #637545;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1187,7 +1118,7 @@ function scrollTo(id: string) {
 .tl-desc {
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #637545;
   line-height: 1.75;
   margin-bottom: 1rem;
 }
@@ -1203,7 +1134,7 @@ function scrollTo(id: string) {
   gap: 0.6rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.865rem;
-  color: #94a3b8;
+  color: #58683e;
   line-height: 1.6;
 }
 .tdot {
@@ -1216,7 +1147,7 @@ function scrollTo(id: string) {
 
 /* SKILLS */
 .sk-sec {
-  background: linear-gradient(180deg, transparent, rgba(6, 182, 212, 0.02) 50%, transparent);
+  background: linear-gradient(180deg, transparent, rgba(155, 166, 133, 0.12) 50%, transparent);
 }
 .skills-grid {
   display: grid;
@@ -1225,15 +1156,15 @@ function scrollTo(id: string) {
   margin-bottom: 3rem;
 }
 .sk-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(69, 82, 48, 0.14);
   border-radius: 14px;
   padding: 1.2rem 1.4rem;
   transition: all 0.3s ease;
 }
 .sk-card:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(59, 130, 246, 0.2);
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(99, 117, 69, 0.35);
   transform: translateY(-2px);
 }
 .sk-top {
@@ -1246,7 +1177,7 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: 0.93rem;
   font-weight: 600;
-  color: #e2e8f0;
+  color: #455230;
 }
 .sk-lv {
   font-family: 'Inter', sans-serif;
@@ -1256,18 +1187,18 @@ function scrollTo(id: string) {
   border-radius: 999px;
 }
 .lv-a {
-  background: rgba(59, 130, 246, 0.13);
-  color: #3b82f6;
-  border: 1px solid rgba(59, 130, 246, 0.22);
+  background: rgba(69, 82, 48, 0.14);
+  color: #455230;
+  border: 1px solid rgba(69, 82, 48, 0.25);
 }
 .lv-m {
-  background: rgba(245, 158, 11, 0.11);
-  color: #f59e0b;
-  border: 1px solid rgba(245, 158, 11, 0.18);
+  background: rgba(155, 166, 133, 0.28);
+  color: #637545;
+  border: 1px solid rgba(99, 117, 69, 0.25);
 }
 .sk-bar {
   height: 5px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(69, 82, 48, 0.12);
   border-radius: 999px;
   overflow: hidden;
   margin-bottom: 0.45rem;
@@ -1279,7 +1210,7 @@ function scrollTo(id: string) {
 .sk-pct {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
-  color: #475569;
+  color: #637545;
 }
 .soft-sec {
   text-align: center;
@@ -1288,7 +1219,7 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
-  color: #94a3b8;
+  color: #455230;
   margin-bottom: 1rem;
 }
 .soft-tags {
@@ -1298,9 +1229,9 @@ function scrollTo(id: string) {
   gap: 0.7rem;
 }
 .stag {
-  background: rgba(139, 92, 246, 0.1);
-  border: 1px solid rgba(139, 92, 246, 0.2);
-  color: #a78bfa;
+  background: rgba(155, 166, 133, 0.25);
+  border: 1px solid rgba(99, 117, 69, 0.28);
+  color: #455230;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
@@ -1309,13 +1240,13 @@ function scrollTo(id: string) {
   transition: all 0.2s ease;
 }
 .stag:hover {
-  background: rgba(139, 92, 246, 0.18);
+  background: rgba(99, 117, 69, 0.22);
   transform: translateY(-1px);
 }
 
 /* EDUCATION */
 .edu-sec {
-  background: #040712;
+  background: #e1e2cc;
 }
 .edu-grid {
   display: grid;
@@ -1325,17 +1256,17 @@ function scrollTo(id: string) {
 .edu-card {
   display: flex;
   gap: 1.25rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(235, 235, 216, 0.85);
+  border: 1px solid rgba(69, 82, 48, 0.14);
   border-radius: 18px;
   padding: 2rem;
   transition: all 0.3s ease;
 }
 .edu-card:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(59, 130, 246, 0.22);
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(99, 117, 69, 0.35);
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 40px rgba(69, 82, 48, 0.12);
 }
 .edu-ico {
   font-size: 2.2rem;
@@ -1344,7 +1275,7 @@ function scrollTo(id: string) {
 .edu-per {
   font-family: 'Inter', sans-serif;
   font-size: 0.77rem;
-  color: #06b6d4;
+  color: #637545;
   font-weight: 600;
   letter-spacing: 0.05em;
   display: block;
@@ -1354,13 +1285,13 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #f1f5f9;
+  color: #455230;
   margin-bottom: 0.2rem;
 }
 .edu-sch {
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  color: #3b82f6;
+  color: #637545;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -1376,12 +1307,12 @@ function scrollTo(id: string) {
   gap: 0.5rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.83rem;
-  color: #64748b;
+  color: #58683e;
   line-height: 1.5;
 }
 .edu-ul li::before {
   content: '✓';
-  color: #06b6d4;
+  color: #637545;
   font-size: 0.75rem;
   margin-top: 0.1rem;
   flex-shrink: 0;
@@ -1389,13 +1320,13 @@ function scrollTo(id: string) {
 
 /* CONTACT */
 .ct-sec {
-  background: linear-gradient(180deg, transparent, rgba(59, 130, 246, 0.03) 50%, transparent);
+  background: linear-gradient(180deg, transparent, rgba(155, 166, 133, 0.15) 50%, transparent);
 }
 .ct-box {
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(59, 130, 246, 0.14);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(69, 82, 48, 0.16);
   border-radius: 28px;
   padding: 4rem 2rem;
   overflow: hidden;
@@ -1404,7 +1335,7 @@ function scrollTo(id: string) {
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.09) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(155, 166, 133, 0.25) 0%, transparent 70%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1414,14 +1345,14 @@ function scrollTo(id: string) {
   font-family: 'Outfit', sans-serif;
   font-size: clamp(1.7rem, 4vw, 2.5rem);
   font-weight: 800;
-  color: #f1f5f9;
+  color: #455230;
   margin: 0.75rem 0 1rem;
   line-height: 1.2;
 }
 .ct-desc {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
-  color: #64748b;
+  color: #637545;
   max-width: 500px;
   margin: 0 auto 2.5rem;
   line-height: 1.85;
@@ -1444,26 +1375,26 @@ function scrollTo(id: string) {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.25s ease;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #94a3b8;
+  background: rgba(235, 235, 216, 0.8);
+  border: 1px solid rgba(69, 82, 48, 0.18);
+  color: #455230;
 }
 .cl:hover {
-  border-color: rgba(59, 130, 246, 0.4);
-  color: #3b82f6;
-  background: rgba(59, 130, 246, 0.08);
+  border-color: #455230;
+  color: #455230;
+  background: rgba(155, 166, 133, 0.28);
   transform: translateY(-2px);
 }
 .cl-pri {
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  background: linear-gradient(135deg, #455230, #637545);
   border: none;
-  color: white;
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.35);
+  color: #ebebd8;
+  box-shadow: 0 4px 20px rgba(69, 82, 48, 0.28);
 }
 .cl-pri:hover {
-  color: white;
+  color: #ebebd8;
   border: none;
-  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
+  box-shadow: 0 8px 30px rgba(69, 82, 48, 0.4);
 }
 .ct-loc {
   display: inline-flex;
@@ -1471,19 +1402,19 @@ function scrollTo(id: string) {
   gap: 0.35rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  color: #475569;
+  color: #637545;
 }
 
 /* FOOTER */
 .ftr {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(69, 82, 48, 0.12);
   padding: 1.75rem 0;
   text-align: center;
 }
 .ftr p {
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  color: #334155;
+  color: #637545;
 }
 
 /* RESPONSIVE */

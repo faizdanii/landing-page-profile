@@ -5,28 +5,29 @@
    ============================================= */
 
 :root {
-  /* Color Palette */
-  --color-bg-primary: #04071a;
-  --color-bg-secondary: #080d20;
-  --color-bg-card: rgba(255, 255, 255, 0.04);
-  --color-bg-card-hover: rgba(255, 255, 255, 0.08);
+  /* Color Palette - #EBEBD8 #637545 #455230 #9BA685 */
+  --color-bg-primary: #ebebd8;
+  --color-bg-secondary: #e1e2cc;
+  --color-bg-card: rgba(255, 255, 255, 0.55);
+  --color-bg-card-hover: rgba(255, 255, 255, 0.85);
 
-  --color-accent-blue: #3b82f6;
-  --color-accent-cyan: #06b6d4;
-  --color-accent-purple: #8b5cf6;
-  --color-accent-gold: #f59e0b;
+  --color-accent-green: #455230;
+  --color-accent-blue: #455230;
+  --color-accent-cyan: #637545;
+  --color-accent-purple: #9ba685;
+  --color-accent-gold: #637545;
 
-  --color-gradient-primary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-  --color-gradient-secondary: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
-  --color-gradient-hero: linear-gradient(135deg, #04071a 0%, #0a1035 50%, #0d1540 100%);
+  --color-gradient-primary: linear-gradient(135deg, #455230 0%, #637545 100%);
+  --color-gradient-secondary: linear-gradient(135deg, #637545 0%, #9ba685 100%);
+  --color-gradient-hero: linear-gradient(135deg, #ebebd8 0%, #e4e5cf 50%, #dcdec5 100%);
 
-  --color-text-primary: #f1f5f9;
-  --color-text-secondary: #94a3b8;
-  --color-text-muted: #64748b;
-  --color-text-accent: #3b82f6;
+  --color-text-primary: #455230;
+  --color-text-secondary: #58683e;
+  --color-text-muted: #637545;
+  --color-text-accent: #455230;
 
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-border-accent: rgba(59, 130, 246, 0.3);
+  --color-border: rgba(69, 82, 48, 0.14);
+  --color-border-accent: rgba(99, 117, 69, 0.35);
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
@@ -38,11 +39,11 @@
   --container-padding: 1.5rem;
 
   /* Effects */
-  --glass-bg: rgba(8, 13, 32, 0.8);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(235, 235, 216, 0.88);
+  --glass-border: rgba(69, 82, 48, 0.14);
   --glass-blur: blur(20px);
-  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.15);
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 40px rgba(99, 117, 69, 0.18);
+  --shadow-card: 0 4px 24px rgba(69, 82, 48, 0.1);
 
   /* Border Radius */
   --radius-sm: 8px;
@@ -142,6 +143,6 @@ img {
    ============================================= */
 
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
+  background: rgba(99, 117, 69, 0.28);
   color: var(--color-text-primary);
 }
